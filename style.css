@@ -1,0 +1,20 @@
+* {
+    margin:0;
+    padding:0;
+}
+.container {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    background-color: aqua;
+}
+.container::after
+{
+    background-color: azure;
+}
+p{
+    width:30px;
+    height:30px;
+    background-color: antiquewhite;
+    margin:1em;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <button type="button" onclick="run()" style="background-color: red; border-radius: 5px; margin:10px">RUN</button>
+    <div class="container">
+        <!-- <form action="get" onsubmit="check()"></form> -->
+        <p id="number1"></p>
+        <input type="text" name="operation" id="operation">
+        <p id="number2"></p>
+        <p style="background-color: inherit;"> = </p>
+        <input type="text" id="result">
+        <button type="button" onclick="check()">CHECK</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
